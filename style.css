@@ -1,0 +1,569 @@
+:root {
+  --color--black--: (#000000);
+  --color--black2--: (#202020);
+  --color--black3--: (#3a3b39);
+  --color--black4--: (#575855);
+  --color--cinzak--: (#4a474e);
+  --color--silver--: (#c0c0c0);
+}
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+  color: #c0c0c0;
+  scroll-behavior: smooth;
+}
+.navbar {
+  overflow: hidden;
+}
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-content a {
+  float: left; /* Alinha os links à esquerda */
+  display: flex; /* Torna os links blocos */
+  color: #c0c0c0; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 14px 20px; /* Espaçamento interno */
+  text-decoration: none; /* Remove o sublinhado */
+}
+.navbar-content a:hover {
+  text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 10px #fcfcfc;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home-content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 3rem;
+  font-size: 4rem;
+  transition: transform 0.8s ease;
+  cursor: default;
+}
+.home-content h1:hover {
+  text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 10px #fcfcfc;
+  transform: scale(1.1);
+}
+.home-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 58px;
+}
+/* HEADER FINAL */
+
+.pag1-content {
+  margin: 50px;
+  padding: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.pag1-content h1 {
+  align-items: center;
+  margin-top: 5rem;
+  width: 800px;
+}
+.pag1-image {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 400px 0px;
+  margin: 40px;
+}
+.pag1-image a {
+  transition: transform 0.3s ease;
+}
+.pag1-image a:hover {
+  transform: scale(1.3);
+}
+/* final home1 */
+.home2 {
+  display: flex;
+}
+.home2-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home2-content video {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 70px;
+}
+/* final hom2 */
+.home3 {
+  display: flex;
+  flex-direction: column;
+}
+.home3-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home3-content h1 {
+  margin: 20px;
+  width: 500px;
+}
+.home3-content img {
+  justify-items: center;
+  align-items: center;
+  width: 800px;
+  margin: 3rem;
+}
+.home3-content button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.button p {
+  display: flex;
+  margin: 3rem;
+  padding: 12px;
+  background-color: transparent; /* Fundo transparente */
+  border: 2px solid #c0c0c0; /* Borda colorida */
+  color: #fff; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave */
+  border-radius: 5px; /* Bordas arredondadas */
+  outline: none; /* Remove contorno padrão ao focar */
+  transition: transform 0.6s ease;
+}
+.button p:hover {
+  background-color: #c0c0c0; /* Cor de fundo ao passar o mouse */
+  color: white; /* Cor do texto ao passar o mouse */
+  transform: scale(1.2);
+}
+/* home3 final */
+
+.home4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+.home4-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  padding: 5rem;
+  margin: 100px;
+  height: auto;
+}
+.home4-content h1 {
+  font-weight: bold;
+  font-size: 65px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+.contato-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  padding: 5rem;
+  margin: 100px;
+  height: auto;
+}
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contato-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.contato-content img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  margin: 5px;
+  transition: transform 0.5s ease;
+  text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 10px #fcfcfc;
+}
+.contato-content a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #c0c0c0;
+  gap: 3px;
+  font-size: 12px;
+  flex-direction: column;
+  margin: 3rem;
+}
+.contato-content a img {
+  align-items: center;
+  justify-content: space-between;
+}
+.contato-content img:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 0px #ffffff, 0 0 0px #ffffff, 0 0 10px #fcfcfc;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #151515;
+  padding: 40px;
+  position: relative;
+
+  height: auto;
+}
+
+@media screen and (max-width: 450px) {
+  /* class geral */
+  * {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-content h1 {
+    font-size: 40px;
+  }
+  .home-content {
+    flex-direction: column;
+  }
+  .pag1-image {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .pag1-image img {
+    width: 300px;
+    gap: 10px;
+    margin: 2rem;
+    padding: 0;
+  }
+  .home3-content h1 {
+    font-size: 20px;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .home3-content img {
+    width: 400px;
+    flex-direction: column;
+    padding: 0;
+    margin: 50px 00px;
+  }
+  .button {
+    width: 50px;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .button p {
+    width: 50px;
+    font-size: 10px;
+    display: flex;
+  }
+  .button a {
+    display: flex;
+    margin: 0;
+    padding: 0px;
+  }
+  .home4-content {
+    padding: 0;
+    margin: 0;
+  }
+  .home4-content h1 {
+    font-size: 35px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home4-content h3 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content h4 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content h5 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content p {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4 {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #151515;
+    padding: 20px;
+    position: relative;
+
+    width: 100%;
+  }
+
+  /* cabeçalho */
+
+  .navbar-content {
+    display: none;
+  }
+}
+/* celular */
+
+@media screen and (max-width: 768px) {
+  /* class geral */
+  * {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-content h1 {
+    font-size: 40px;
+  }
+  .home-content {
+    flex-direction: column;
+  }
+  .pag1-image {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .pag1-image img {
+    width: 300px;
+    gap: 10px;
+    margin: 2rem;
+    padding: 0;
+  }
+  .home3-content h1 {
+    font-size: 20px;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .home3-content img {
+    width: 400px;
+    flex-direction: column;
+    padding: 0;
+    margin: 50px 00px;
+  }
+  .button {
+    width: 50px;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .button p {
+    width: 50px;
+    font-size: 10px;
+    display: flex;
+  }
+  .button a {
+    display: flex;
+    margin: 0;
+    padding: 0px;
+  }
+  .home4-content {
+    padding: 0;
+    margin: 0;
+  }
+  .home4-content h1 {
+    font-size: 35px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home4-content h3 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content h4 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content h5 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content p {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4 {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #151515;
+    padding: 20px;
+    position: relative;
+
+    width: 100%;
+  }
+
+  /* cabeçalho */
+
+  .navbar-content {
+    display: none;
+  }
+}
+
+/* tablets */
+
+@media screen and (max-width: 960px) {
+  /* class geral */
+  * {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-content h1 {
+    font-size: 40px;
+  }
+  .home-content {
+    flex-direction: column;
+  }
+  .pag1-image {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .pag1-image img {
+    width: 300px;
+    gap: 10px;
+    margin: 2rem;
+    padding: 0;
+  }
+  .home3-content h1 {
+    font-size: 20px;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .home3-content img {
+    width: 400px;
+    flex-direction: column;
+    padding: 0;
+    margin: 50px 00px;
+  }
+  .button {
+    width: 50px;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .button p {
+    width: 50px;
+    font-size: 10px;
+    display: flex;
+  }
+  .button a {
+    display: flex;
+    margin: 0;
+    padding: 0px;
+  }
+  .home4-content {
+    padding: 0;
+    margin: 0;
+  }
+  .home4-content h1 {
+    font-size: 35px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home4-content h3 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content h4 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content h5 {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4-content p {
+    font-size: 12px;
+    width: 250px;
+  }
+  .home4 {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #151515;
+    padding: 20px;
+    position: relative;
+
+    width: 100%;
+  }
+
+  /* cabeçalho */
+
+  .navbar-content {
+    display: none;
+  }
+}
